@@ -1,0 +1,784 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+/* <-----------DEFAULT CSS SECTION START--------> */
+
+.default-heading{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.default-heading p{}
+
+.dna-img{
+    margin: 15px 0;
+}
+.dna-img img{}
+
+/* <-----------DEFAULT CSS SECTION END--------> */
+
+
+/* <-----------OWL CAROUSEL CSS SECTION START--------> */
+
+.owl-carousel .owl-item img {
+    display: block; 
+    width: 50%; 
+}
+.owl-nav{
+    display: none !important;
+}
+
+.owl-dots .owl-dot span{
+    width: 10px;
+    height: 10px;
+    background: #c6ccd0;
+    border: 1px solid #fff;
+    display: block;
+    border-radius: 50%;
+}
+
+.owl-dots{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.owl-dots .active span{
+    width: 10px;
+    height: 10px;
+    background: #f69165;
+    display: block;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+/* <-----------OWL CAROUSEL CSS SECTION END--------> */
+
+
+/* <-----------HEADER CSS-----------> */
+header{
+    margin: 30px 0;
+}
+.header-logo-img{}
+.header-logo-img img{}
+
+.header-contact-part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-contact-contents{
+    display: flex;
+}
+.header-contact-icon{
+    height: 50px;
+    width: 40px;
+    text-align: start;
+}
+.header-contact-icon i{
+    font-size: 40px;
+    color: #f69165;
+    line-height: 50px;
+}
+.header-contact-text{
+    margin-left: 10px;
+}
+.header-contact-text h5{
+    margin: 0;
+}
+.header-contact-text p{
+    margin: 0;
+    color: #a0a0a0;
+    font-weight: 500;
+}
+
+/* <-----------HEADER NAV CSS-----------> */
+.nav-section{
+    background: #00cce1;
+}
+.header-nav-part{}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    text-transform: capitalize;
+    padding: 0%;
+    margin-right: 20px;
+    font-size: 19px;
+}
+.navbar>.container-fluid{
+    padding: 0;
+}
+.nav-section-contents{
+    padding: 0%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    
+    color: white;
+}
+
+/* <-----------APPOITMENT CSS-----------> */
+.appointment-contents{
+    display: flex;
+    justify-content: flex-end;
+}
+.appointment-content-part{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background: #f69165;
+    clip-path: polygon(6% 0%, 81% 0%, 75% 100%, 0% 100%);
+}
+.appointment-part{
+    display: flex;
+    padding-left: 19px;
+}
+.appointment-part-icon{
+    display: flex;
+    align-items: center;
+}
+.appointment-part-icon i{
+    color: #fff;
+}
+.appointment-part-text{margin-left: 10px;}
+.appointment-part-text h5{
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* <-----------BANNER CSS-----------> */
+.banner{
+    background: url(../images/banner-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+.banner-contents{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;}
+.banner-text-part{
+    width: 50%;
+}
+.banner-text-part h3{
+    background: #00cce1;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+}
+.banner-text-part h1{
+    display: inline-block;
+    background: #f69165;
+    color: #fff;
+    padding: 5px 10px;
+}
+.banner-text-part p{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+/* <-----------BANNER BUTTON CSS-----------> */
+.banner-button-part{}
+.banner-learn-more-btn{
+    padding: 0;
+    margin: 0;
+    background: #f69165;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: .4s all ease-in-out;
+}
+.banner-book-now-btn{
+    padding: 0;
+    margin: 0;
+    background: #00cce1;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-left: 15px;
+    transition: .4s all ease-in-out;
+}
+
+/* <-----------BANNER BUTTON HOVER CSS-----------> */
+.banner-learn-more-btn:hover{
+    background: #00cce1;
+    color: #fff;
+}
+.banner-book-now-btn:hover{
+    background: #f69165;
+    color: #fff;
+}
+
+
+/* <-----------BANNER IMAGE CSS-----------> */
+.banner-img-part{
+    /* z-index: 7; */
+    /* position: absolute; */
+    /* bottom: -18px; */
+}
+.banner-img-part img{
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    width: 48%;
+}
+
+/* <-----------AGENCY CSS-----------> */
+.agency{
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+.agency-image-part{
+    /* position: relative; */
+    /* left: 0; */
+}
+.agency-image-part img{
+    position: absolute;
+    bottom: 0;
+    left: 115px;
+    width: 34%;
+}
+.agency-container{/* padding-left: 70px; */}
+.agency-text-part{}
+.agency-text-part h1{
+    font-size: 30px;
+}
+.agency-text-part p{
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.agency-discription-area{}
+.agency-discription-area-content{
+    margin-bottom: 40px;
+}
+.agency-discription-area-content-img{}
+.agency-discription-area-content-img img{}
+.agency-discription-area-content 
+.agency-discription-area-content h5{}
+.agency-discription-area-content p{}
+
+/* <-----------MEET CSS-----------> */
+.meet{
+    background: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 70px;}
+.meet-text-part{
+}
+.meet-text-part h1{}
+.meet-text-part-img{}
+.meet-text-part-img img{
+    
+}
+.meet-text-part p{
+}
+
+.meet-img-part{
+    text-align: center;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.meet-img-part-icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    z-index: 1;
+}
+.meet-img-part-icon{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    
+}
+.meet-img-part-icon a{}
+.meet-img-part-icon a i{
+    font-size: 20px;
+    color: white;
+    
+    transition: .4s all ease-in-out;
+}
+.meet-img-part-img{
+    position: relative;
+}
+.meet-img-part-img img{
+    width: 100%;
+}
+.meet-img-part h6{
+    margin: 0;
+    margin-top: 10px;
+}
+.meet-img-part p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.meet-img-part span{
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #00cce1;
+} 
+/* <-----------MEET AFTER BEFORE CSS-----------> */
+.meet-img-part-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+
+.meet-img-part-img::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+    
+}
+/* <-----------MEET HOVER CSS-----------> */
+
+.meet-img-part:hover .meet-img-part-img::before{
+    
+    width: 100%;
+    opacity: .5;
+    
+}
+.meet-img-part:hover .meet-img-part-img::after{
+    
+    width: 100%;
+    opacity: .5;
+    
+}
+
+/* .meet-img-part:hover .meet-img-part-icon a i{
+    opacity: 1;
+} */
+.meet-img-part:hover .meet-img-part-icon{
+    opacity: 1;
+}
+
+.meet-img-part-icon:hover{
+    background: #F69165;
+    border: 2px solid #F69165;
+}
+
+/* <-----------SERVICE CSS-----------> */
+.service{
+    margin: 80px 0;
+}
+.service-text-part{}
+.service-text-part h1{}
+.service-text-part p{}
+
+.service-img-part{
+    border: 5px solid #ebebeb;
+    margin-bottom: 25px;
+    padding: 35px 25px; 
+    transition: .4s all ease-in-out;
+}
+.service-img-content{
+    display: flex;
+    align-items: center;
+}
+.service-img-content-img{
+    height: 50px;
+    width: 50px;
+}
+.service-img-content-img img{}
+
+.service-img-content-text{
+    padding: 0;
+}
+.service-img-content-text h5{
+    margin: 0;
+    transition: .4s all ease-in-out;
+}
+.service-img-part p{
+    color: #707070;
+}
+.service-img-part-read-more{
+    text-decoration: none;
+    color: #707070;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+}
+
+/* <-----------SERVICE HOVER CSS-----------> */
+.service-img-part:hover{
+    border: 5px solid #f69165;
+}
+.service-img-part:hover .service-img-content-text h5{
+    color: #f69165;
+}
+.service-img-part:hover .service-img-part-read-more{
+    color: #f69165;
+}
+
+/* <-----------PRICE CSS-----------> */
+.price{
+    background: #f9f9f9;
+    padding: 80px 0;
+}
+.price-text-part{}
+.price-text-part h1{}
+.price-text-part p{}
+
+.price-table-part{
+    text-align: center;
+    padding: 0 0px;
+}
+.price-table-contents{
+    border: 5px solid #fff;
+    padding: 15px 0;
+    transition: .4s all ease-in-out;
+}
+.price-table-contents h1{
+    font-size: 35px;
+    margin: 0;
+    color: #00cce1;
+    transition: .4s all ease-in-out;
+}
+.price-table-contents h6{
+    margin: 0;
+    padding-bottom: 20px;
+    color: #707070;
+}
+.price-table-content-pricing-part{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0px;
+    transition: .4s all ease-in-out;
+}
+.price-table-content-pricing-part h1{
+    font-size: 45px;
+    transition: .4s all ease-in-out;
+}
+.price-table-content-pricing-part h5{
+    font-size: 15px;
+    transition: .4s all ease-in-out;
+}
+.price-table-content-descrition-part{
+    margin: 20px 0;
+    line-height: 40px;}
+.price-table-content-descrition-part p{
+    color: #707070;
+    margin: 0;
+}
+.price-sign-up-btn{
+    padding: 0;
+    margin: 0;
+    background: #00cce1;
+    color: white;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* <-----------PRICE HOVER CSS-----------> */
+.price-table-contents:hover {
+    border: 5px solid #f69165;
+    background: #fff;
+}
+
+.price-table-contents:hover h1{
+    color: #f69165;
+}
+
+.price-table-contents:hover .price-table-content-pricing-part{
+    background: #f69165;
+}
+
+.price-table-contents:hover .price-table-content-pricing-part h1{
+    color: #fff;
+}
+
+.price-table-contents:hover .price-table-content-pricing-part h5{
+    color: #fff;
+}
+
+.price-table-contents:hover .price-sign-up-btn{
+    background: #f69165;
+    color: white;
+}
+
+
+/* <-----------CLIENT CSS-----------> */
+.clint{
+    background: url(../images/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    position: relative;
+}
+.client-logo-row{}
+
+/* <-----------CLIENT BEFORE CSS START-----------> */
+.clint::before{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+/* <-----------CLIENT BEFORE CSS END-----------> */
+.client-text-part{
+    z-index: 1;
+}
+.client-text-part h1{
+    color: white;
+}
+.client-text-part p{
+    color: white;
+}
+
+.client-logo-part{
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.client-logo-img{}
+.client-logo-img img{}
+
+/* <-----------FOOTER CSS-----------> */
+footer{
+    background: #1b1b1b;
+    padding: 80px 0;
+}
+.footer-contact-part{}
+.footer-contact-part img{
+    margin-bottom: 15px;
+}
+.footer-contact-part p{
+    color: #fff;
+    margin: 0;
+    margin: 15px 0;
+}
+.footer-contact-part-contents{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footer-contact-map-content-icon{
+    height: 50px;
+    width: 50px;
+}
+.footer-contact-map-content-icon i{
+    color: #06a7b8;
+    line-height: 50px;
+    font-size: 30px;
+}
+.footer-contact-map-content-text{}
+.footer-contact-map-content-text p{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contact-phone-content-icon{
+    height: 50px;
+    width: 50px;
+    text-align: left;
+}
+.footer-contact-phone-content-icon i{
+    color: #06a7b8;
+    line-height: 50px;
+    font-size: 30px;
+}
+.footer-contact-phone-content-text{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.footer-contact-phone-content-text p{
+    margin: 0;
+}
+
+.footer-contact-email-content-icon{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: left;
+}
+.footer-contact-email-content-icon i{
+    color: #06a7b8;
+    line-height: 50px;
+}
+.footer-contact-email-content-text{}
+.footer-contact-email-content-text p{
+    margin: 0;
+}
+
+.footer-client-part{}
+.footer-client-part h1{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.footer-client-part-contents{
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer-client-part-content-img{}
+.footer-client-part-content-img img{}
+.footer-client-part-content-text{margin-left: 15px;}
+.footer-client-part-content-text p{
+    color: #b4b4b4;
+    margin: 0;
+}
+.footer-client-part-content-text h6{
+    color: #777777;
+    margin: 0;
+}
+
+.footer-newsletter-part{}
+.footer-newsletter-part h1{
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-newsletter-part p{
+    color: #b4b4b4;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.footer-newsletter-part-contents{}
+form{
+    display: flex;
+    justify-content: flex-end;
+}
+form input{}
+form input[type="email"]{
+    margin: 0;
+    margin-left: 0px;
+    padding: 5px 0;
+    padding-left: 10px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid #3d3d3d;
+    width: 90%;
+}
+
+form input[type="submit"]{
+    margin: 0;
+    margin-left: -6px;
+    border-radius: 0;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    background: #f69165;
+    border: 2px solid #f69165;
+    color: #fff;
+    transition: .4s all ease-in-out;
+}
+
+form input[type="submit"]:hover{
+    background: #00CCE1;
+    border: 2px solid #00CCE1;
+}
+
+/* <-----------FOOTER SOCIAL MEDIA CSS-----------> */
+.footer-follow-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-follow-part-text{
+    height: 50px;
+}
+.footer-follow-part-text h5{
+    margin: 0;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: white;
+    width: 100%;
+}
+.footer-follow-part-contents{}
+.footer-follow-part-icon-contants{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.footer-follow-icon-content {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background: #323232;
+    transition: .4s all ease-in-out;
+}
+
+.footer-follow-icon-content a {}
+.footer-follow-icon-content a i {
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-follow-icon-content:hover {
+    background: #F69165;
+}
+
+
+.footer-copyright{
+    background: #161616;
+}
+.footer-copyright-part{
+    padding: 15px 0;
+}
+.footer-copyright-part p{
+    MARGIN: 0;
+    color: #777777;
+    text-align: center;
+}
+.footer-copyright-part span{
+    color: #00cce1;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    display: none;
+}
+ .Center-logo{
+     width: 20%;
+ }
+ .Center-logo img{
+     width: 100%;
+ }

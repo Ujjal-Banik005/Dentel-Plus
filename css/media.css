@@ -1,0 +1,52 @@
+@media(max-width:905px){
+ 
+}
+@media(max-width:750px){
+    header{
+      display: none;
+    }
+    .appointment-contents{
+        display: none;
+    }
+    .navbar-brand{
+        display: inherit;
+    }
+    .banner-img-part{
+        display: none;
+    }
+    .banner-img-part{
+        display: none;
+        text-align: center;
+    }
+    .banner-text-part{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+}
+@media(max-width:575px){
+
+}
+.agency-image-part img{
+    
+width: 70%;
+    
+position: static;
+    
+bottom: 0;
+    
+margin-bottom: 30px;
+}
+.price-table-part{
+    margin-bottom: 30px;
+}
+
+@media(max-width:360px){
+    .banner-book-now-btn{
+        
+      margin-top: 20px;
+        
+     margin-left: 6px;
+    }
+
+}
